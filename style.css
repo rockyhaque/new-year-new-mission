@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red-color: #ff0000;
+  --black-color: #070211;
+}
+
+.red-text {
+  color: var(--red-color);
+}
+
+.main-container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.celebration-container {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent),
+    url(./resource/Banner-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: "Merriweather";
+}
+
+.celebration-text-container {
+  padding: 200px 0px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  /* border: red 1px solid; */
+}
+
+.celebration-text-container h4 {
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.celebration-text-container h1 {
+  font-weight: 900;
+  font-size: 72px;
+}
+
+/* category */
+
+.category-text {
+  text-align: center;
+  margin: 50px 0px;
+  font-family: "Inter";
+}
+
+.category-text h1 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 72px;
+  color: var(--red-color);
+}
+
+.category-text h6 {
+  margin: 0px 0px 20px 0px;
+  color: var(--red-color);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.category-text h2 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.category-img {
+  text-align: center;
+}
+
+.category-img img {
+  max-width: 100%;
+  height: auto;
+}
