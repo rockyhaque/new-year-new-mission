@@ -60,7 +60,7 @@
   font-size: 72px;
 }
 
-/* category */
+/*---------- category----------- */
 
 .category-text {
   text-align: center;
@@ -97,7 +97,7 @@
   height: auto;
 }
 
-/* midnight-container */
+/*---------- midnight-container---------- */
 
 .midnight-container {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent),
@@ -154,7 +154,7 @@
   margin: 0px 70px;
 }
 
-/* Place */
+/*---------- Place---------- */
 
 .place-container {
   background-image: linear-gradient(
@@ -193,7 +193,7 @@
   color: var(--red-color);
 }
 
-/* coming soon */
+/*---------- coming soon---------- */
 .coming-soon-container {
   display: flex;
   justify-content: space-evenly;
@@ -238,25 +238,25 @@
   margin-top: 30px;
 }
 
-/* Discount */
+/*---------- Discount---------- */
 
 .discount-container {
   text-align: center;
   margin-top: 120px;
 }
 
-.discount-text h5 {
+.discount-text-container h5 {
   color: var(--black-color);
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
 }
 
-.holidays-text {
+.holidays-text-container {
   color: var(--red-color);
 }
 
-.discount-text h1 {
+.discount-text-container h1 {
   color: #070211;
   font-family: Merriweather;
   font-size: 72px;
@@ -271,9 +271,59 @@
 }
 
 .discount-img-container{
-  margin-top: 80px;
+  margin-top: 5px;
+  /* border: 2px solid purple; */
 }
 
 .discount-img-container-top{
   display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  /* position: relative; */
 }
+
+/* .magic-box img{
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  top: 47%;
+  left: 10%;
+  height: 90%;
+ 
+} */
+
+.magic-box img {
+  position: relative;
+  z-index: 1;
+  max-width: none; 
+  width: 120%; 
+  height: auto; 
+  top: 80%; 
+  left: 70%; 
+  transform: translate(-50%, -50%);
+}
+
+
+.discount-fifty{
+  position: relative;
+  left: 10%;
+  /* bottom: 62%; */
+  top: 180px;
+  /*! % is not working here... */
+  z-index: 1;
+}
+
+.discount-model img{
+  position: relative;
+  top: 22%;
+
+}
+
+.discount-img-container-down img{
+  width: 100%;
+  position: relative;
+  /* position: absolute; */
+}
+
+
+/*---------- Portfolio---------- */
