@@ -15,7 +15,7 @@
   --white-rgb: rgba(255, 255, 255, 0.8);
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
@@ -187,26 +187,23 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  
 }
 
 .place-date-time {
   color: var(--red-color);
 }
 
-
 /* coming soon */
-.coming-soon-container{
+.coming-soon-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 220px;
   gap: 50px;
   font-family: "Inter";
-  
 }
 
-.coming-soon-container div{
+.coming-soon-container div {
   flex: 1;
 }
 
@@ -217,26 +214,66 @@
   margin-top: 15px;
 }
 
-.coming-soon-container h3{
+.coming-soon-container h3 {
   color: var(--red-color);
 }
 
-.stat{
-  color: var(--red-color);
-  font-size: 48px;
-  font-weight: 700;
-}
-
-.stat-para{
-  margin-top: 20px;
-}
-
-.coming-soon-middle-div img{
+.coming-soon-container > div:nth-child(2) img {
   border: 15px solid var(--red-color);
   border-radius: 50%;
   padding: 20px;
 }
 
-.new-year-badge{
+.stat {
+  color: var(--red-color);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.stat-para {
+  margin-top: 20px;
+}
+
+.new-year-badge {
   margin-top: 30px;
+}
+
+/* Discount */
+
+.discount-container {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.discount-text h5 {
+  color: var(--black-color);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holidays-text {
+  color: var(--red-color);
+}
+
+.discount-text h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.discount-para{
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.discount-img-container{
+  margin-top: 80px;
+}
+
+.discount-img-container-top{
+  display: flex;
 }
