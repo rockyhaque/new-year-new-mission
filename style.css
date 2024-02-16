@@ -11,6 +11,12 @@
 :root {
   --red-color: #ff0000;
   --black-color: #070211;
+  --white-color: #fff;
+  --white-rgb: rgba(255, 255, 255, 0.8);
+}
+
+.hidden{
+  display: none;
 }
 
 .red-text {
@@ -23,7 +29,7 @@
 }
 
 .celebration-container {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent),
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent),
     url(./resource/Banner-image.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,9 +45,8 @@
 .celebration-text-container {
   padding: 200px 0px;
   text-align: center;
-  color: white;
+  color: var(--white-color);
   margin: auto;
-  /* border: red 1px solid; */
 }
 
 .celebration-text-container h4 {
@@ -90,4 +95,148 @@
 .category-img img {
   max-width: 100%;
   height: auto;
+}
+
+/* midnight-container */
+
+.midnight-container {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent),
+    url(./resource/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  border-radius: 10px;
+}
+
+.midnight-info-container {
+  padding: 200px 0px;
+  /* text-align: center; */
+  color: var(--white-color);
+  margin-left: 120px;
+  width: 70%;
+}
+
+.midnight-info-container h1 {
+  font-family: "Merriweather";
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+.midnight-info-container h6 {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 24px;
+}
+
+.midnight-btn {
+  color: var(--white-color);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  margin-top: 48px;
+  margin-left: 30px;
+}
+
+.midnight-stat-container img {
+  margin: 0px 70px;
+}
+
+/* Place */
+
+.place-container {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  font-family: Inter;
+  margin-top: 120px;
+}
+
+.place-container-info {
+  padding: 100px 0px 50px 0px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.place-join-btn-container {
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.place-join-btn-container button {
+  padding: 10px 32px;
+  color: var(--white-color);
+  background: var(--red-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+
+.place-date-time {
+  color: var(--red-color);
+}
+
+
+/* coming soon */
+.coming-soon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+  gap: 50px;
+  font-family: "Inter";
+  
+}
+
+.coming-soon-container div{
+  flex: 1;
+}
+
+.coming-soon-container > div:nth-child(1) > h2 {
+  margin-top: 15px;
+}
+.coming-soon-container > div:nth-child(1) > p {
+  margin-top: 15px;
+}
+
+.coming-soon-container h3{
+  color: var(--red-color);
+}
+
+.stat{
+  color: var(--red-color);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.stat-para{
+  margin-top: 20px;
+}
+
+.coming-soon-middle-div img{
+  border: 15px solid var(--red-color);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.new-year-badge{
+  margin-top: 30px;
 }

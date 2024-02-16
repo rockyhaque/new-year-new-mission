@@ -1,0 +1,40 @@
+/* For devices up to 768px (tablets) */
+@media only screen and (max-width: 768px) {
+  .category-text {
+    margin: 20px 0;
+  }
+
+  .category-text h1 {
+    font-size: 40px;
+  }
+
+  .category-text h6 {
+    font-size: 18px;
+  }
+
+  .category-text h2 {
+    font-size: 32px;
+  }
+}
+
+/* For devices up to 480px (mobile phones) */
+@media only screen and (max-width: 480px) {
+  .category-text h1 {
+    font-size: 28px;
+  }
+
+  .category-text h6 {
+    font-size: 16px;
+  }
+
+  .category-text h2 {
+    font-size: 24px;
+  }
+  .midnight-info-container {
+    padding: 200px 0px;
+    /* text-align: center; */
+    color: var(--white-color);
+    margin-left: 120px;
+    width: 100%;
+  }
+}
