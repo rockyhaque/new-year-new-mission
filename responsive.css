@@ -1,24 +1,95 @@
 /* For devices up to 768px (tablets) */
 @media only screen and (max-width: 768px) {
-  .category-text {
-    margin: 20px 0;
+  .celebration-text-container h4 {
+    font-weight: 400;
+    font-size: 16px;
   }
 
-  .category-text h1 {
-    font-size: 40px;
+  .celebration-text-container h1 {
+    font-weight: 900;
+    font-size: 50px;
   }
 
-  .category-text h6 {
-    font-size: 18px;
+  .category-img img {
+    max-width: 90%;
+    height: auto;
   }
 
-  .category-text h2 {
-    font-size: 32px;
+  .midnight-container {
+    flex-direction: column;
   }
+
+  .midnight-info-container {
+    padding: 100px 0px;
+    width: auto;
+  }
+
+  .midnight-info-container h1 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .midnight-info-container h6 {
+    width: 90%;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+  }
+
+  .midnight-stat-container img {
+    margin: 0px;
+  }
+
+  .coming-soon-container {
+    flex-direction: column;
+  }
+
+  .coming-soon-container > div:nth-child(2) img {
+    padding: 0px;
+    margin: 0px 10px;
+  }
+
+  .portfolio-container {
+    padding: 0px 20px;
+  }
+
+  .newsletter-container p {
+    padding: 0px 20px;
+  }
+
+  .input-area-container {
+    width: 100%;
+  }
+
+  .footer-container {
+    padding: 100px 20px;
+  }
+
+  /*---------- Discount start------------- */
+
+  .discount-text-container h1 {
+    font-size: 48px;
+  }
+
+  .discount-fifty img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .discount-model img {
+    top: 5%;
+  }
+
+  .discount-img-container-down img {
+    width: 100%;
+    position: relative;
+  }
+  /* Discount end */
 }
 
 /* For devices up to 480px (mobile phones) */
-@media only screen and (max-width: 480px) {
+
+/* @media only screen and (max-width: 480px) {
   .category-text h1 {
     font-size: 28px;
   }
@@ -32,9 +103,9 @@
   }
   .midnight-info-container {
     padding: 200px 0px;
-    /* text-align: center; */
     color: var(--white-color);
     margin-left: 120px;
     width: 100%;
   }
-}
+} 
+*/
