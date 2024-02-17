@@ -473,4 +473,18 @@ hr {
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
+  margin-top: 20px;
+}
+
+.footer-info-left h6{
+  margin-top: 20px;
+}
+
+.call, .website{
+  display: flex;
+  gap: 20px;
+}
+
+.website{
+  margin-top: 20px;
 }
